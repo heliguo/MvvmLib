@@ -1,0 +1,8 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.base">
+
+    <application android:networkSecurityConfig="@xml/base_network_security_config">
+
+    </application>
+
+</manifest>
