@@ -1,4 +1,4 @@
-package com.example.base;
+package com.example.base.aaaexample;
 
 import java.lang.ref.PhantomReference;
 import java.lang.ref.Reference;
@@ -44,4 +44,32 @@ class Main {
     static class M {
 
     }
+
+    static List<? extends Fruit> extendsList = new ArrayList<>();
+
+    static List<? super Fruit> superList = new ArrayList<>();
+
+    /**
+     * 通配符<?>和<T>的区别在于，对编译器来说所有的T都代表同一种类型
+     * <?>没有这种约束
+     * <p>
+     * PECS（Producer Extends Consumer Super）原则
+     * 频繁往外读取内容的，适合用上界Extends。取出的类为 extends 的类
+     * 经常往里插入的，适合用下界Super。存放粒度小的类，取出为object类
+     * </p>
+     */
+    static void test() {
+        //        extendsList.add(new Apple());// compile error
+        //        extendsList.add(new Eat());// compile error
+        //        extendsList.add(new Fruit());// compile error
+        //        extendsList.add(new Eat());// compile error
+        Fruit fruit = extendsList.get(0);
+        superList.add(new Apple());
+        //        superList.add(new Eat());// compile error
+        Apple object = ((Apple) superList.get(0));//需要强转，只能得到object类
+
+        Plates<Fruit> plates = new Plates<>(new Fruit());
+
+    }
+
 }

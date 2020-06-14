@@ -6,7 +6,6 @@ import android.os.Looper;
 
 import androidx.annotation.RequiresApi;
 
-import com.example.base.livedatabus.IBaseModelListener;
 import com.example.base.utils.GsonUtils;
 
 import java.lang.ref.Reference;

@@ -1,4 +1,4 @@
-package com.example.base.livedatabus;
+package com.example.base.model;
 
 /**
  * model业务类型监听器,根据不同的model创建不同的业务model监听器
