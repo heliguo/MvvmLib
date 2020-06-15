@@ -1,7 +1,7 @@
 package com.example.base.model;
 
 /**
- * author:lgh on 2020/6/13 15:51
+ * @author:lgh on 2020/6/13 15:51
  * 通用model
  */
 public interface IModelListener<T> extends IBaseModelListener{

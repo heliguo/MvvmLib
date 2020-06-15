@@ -12,7 +12,7 @@ import androidx.annotation.Nullable;
 import java.util.List;
 
 /**
- * author:lgh on 2020/6/12 13:26
+ * @author:lgh on 2020/6/12 13:26
  */
 public class BaseApplication extends Application {
 

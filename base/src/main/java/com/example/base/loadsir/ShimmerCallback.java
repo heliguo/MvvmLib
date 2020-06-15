@@ -7,6 +7,7 @@ import com.example.base.R;
 import com.kingja.loadsir.callback.Callback;
 
 /**
+ * @author lgh
  * 类描述: 骨架屏
  */
 public class ShimmerCallback extends Callback {

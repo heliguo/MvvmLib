@@ -1,7 +1,7 @@
 package com.example.base.aaaexample;
 
 /**
- * author:lgh on 2020/6/13 17:35
+ * @author:lgh on 2020/6/13 17:35
  */
 public class Plates<T extends Fruit> {
 

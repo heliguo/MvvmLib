@@ -1,7 +1,7 @@
 package com.example.base.activity;
 
 /**
- * author:lgh on 2020/6/12 10:21
+ * @author:lgh on 2020/6/12 10:21
  * 页面加载
  */
 public interface IBaseView {

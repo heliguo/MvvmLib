@@ -1,7 +1,7 @@
 package com.example.base.activity;
 
 /**
- * author:lgh on 2020/6/12 10:22
+ * @author:lgh on 2020/6/12 10:22
  * 重新加载
  */
 public interface IBasePagingView extends IBaseView {

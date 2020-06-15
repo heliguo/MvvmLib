@@ -6,7 +6,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * author:lgh on 2020/6/13 17:13
+ * @author:lgh on 2020/6/13 17:13
  * <p>
  * 基于liveData的事件总线
  * 1.关联 activity / fragment 的生命周期 自动识别活动状态触发更新

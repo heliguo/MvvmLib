@@ -6,6 +6,9 @@ import com.google.gson.JsonSyntaxException;
 
 import java.lang.reflect.Type;
 
+/**
+ * @author lgh
+ */
 public class GsonUtils {
 
     public static final String DATE_FORMAT = "yyyy-MM-dd'T'HH:mm:ssZ";

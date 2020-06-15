@@ -12,7 +12,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * author:lgh on 2020/6/13 17:16
+ * @author:lgh on 2020/6/13 17:16
  * <p>
  * 扩展 livedata , hook 源码 拦截 实现非粘性事件
  * Mutable 可变的
@@ -53,11 +53,11 @@ public class BusMutableLiveData<T> extends MutableLiveData<T> {
 
     /**
      * hook源码实现,拦截订阅之前的事件
+     *
      * @param observer observer
      * @throws Exception e
      */
     private void hook(Observer<? super T> observer) throws Exception {
-
         Class<LiveData> liveDataClass = LiveData.class;
         Field safeIterableMap = liveDataClass.getDeclaredField("mObservers");
         safeIterableMap.setAccessible(true);

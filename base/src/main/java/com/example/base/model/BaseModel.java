@@ -7,7 +7,7 @@ import androidx.annotation.RequiresApi;
 import java.lang.ref.WeakReference;
 
 /**
- * author:lgh on 2020/6/13 15:53
+ * @author:lgh on 2020/6/13 15:53
  * <p>
  * 通用基类model
  */

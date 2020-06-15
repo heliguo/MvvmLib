@@ -19,7 +19,7 @@ import io.reactivex.disposables.Disposable;
 
 
 /**
- * author:lgh on 2020/6/12 15:55
+ * @author:lgh on 2020/6/12 15:55
  * 数据类接口
  */
 public abstract class SuperBaseModel<T> {
@@ -125,6 +125,7 @@ public abstract class SuperBaseModel<T> {
 
     /**
      * 加载缓存数据
+     * param T 数据
      */
     protected abstract void notifyCacheData(T data);
 

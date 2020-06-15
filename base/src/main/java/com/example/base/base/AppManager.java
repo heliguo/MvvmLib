@@ -5,7 +5,7 @@ import android.app.Activity;
 import java.util.Stack;
 
 /**
- * author:lgh on 2020/6/12 13:29
+ * @author:lgh on 2020/6/12 13:29
  * <p>
  * activity管理类 静态内部类单例模式
  * </p>

@@ -7,7 +7,7 @@ import androidx.annotation.RequiresApi;
 import java.lang.ref.WeakReference;
 
 /**
- * author:lgh on 2020/6/13 16:17
+ * @author:lgh on 2020/6/13 16:17
  */
 public abstract class BasePagingModel<T> extends SuperBaseModel<T> {
 

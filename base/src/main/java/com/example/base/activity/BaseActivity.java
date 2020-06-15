@@ -19,7 +19,7 @@ import com.kingja.loadsir.core.LoadService;
 import com.kingja.loadsir.core.LoadSir;
 
 /**
- * author:lgh on 2020/6/12 10:20
+ * @author:lgh on 2020/6/12 10:20
  */
 public abstract class BaseActivity<V extends ViewDataBinding, VM extends IMvvmBaseViewModel>
         extends AppCompatActivity implements IBasePagingView {

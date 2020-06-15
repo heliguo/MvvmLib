@@ -1,7 +1,9 @@
 package com.example.common;
 
+import com.example.base.base.BaseApplication;
+
 /**
- * author:lgh on 2020/6/14 21:02
+ * @author:lgh on 2020/6/14 21:02
  */
 public interface IModelInit {
 
@@ -11,7 +13,7 @@ public interface IModelInit {
      * @param baseApplaction base
      * @return boolean
      */
-    boolean onLoadAHead(BaseApplaction baseApplaction);
+    boolean onLoadAHead(BaseApplication baseApplaction);
 
     /**
      * 按需初始化
@@ -19,7 +21,7 @@ public interface IModelInit {
      * @param baseApplaction base
      * @return boolean
      */
-    boolean onLoadLow(BaseApplaction baseApplaction);
+    boolean onLoadLow(BaseApplication baseApplaction);
 
 
 }

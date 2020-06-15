@@ -4,6 +4,9 @@ import android.content.Context;
 import android.text.TextUtils;
 import android.widget.Toast;
 
+/**
+ * @author lgh
+ */
 public class ToastUtil {
 
     private static Toast mToast;

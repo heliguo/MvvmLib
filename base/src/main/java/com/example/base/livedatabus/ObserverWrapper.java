@@ -3,7 +3,7 @@ package com.example.base.livedatabus;
 import androidx.lifecycle.Observer;
 
 /**
- * author:lgh on 2020/6/13 17:55
+ * @author:lgh on 2020/6/13 17:55
  * observer 包装类
  */
 public class ObserverWrapper<T> implements Observer<T> {
@@ -28,13 +28,18 @@ public class ObserverWrapper<T> implements Observer<T> {
         StackTraceElement[] stackTrace = Thread.currentThread().getStackTrace();
         if (stackTrace != null && stackTrace.length > 0) {
             for (StackTraceElement traceElement : stackTrace) {
-                if (("android.arch.lifecycle.LiveData".equals(traceElement.getClassName()) ||
-                        "androidx.lifecycle.LiveData".equals(traceElement.getClassName())) &&
-                        "observeForever".equals(traceElement.getMethodName())) {
+                if (isMethod(traceElement)) {
                     return true;
                 }
             }
         }
         return false;
     }
+
+    private boolean isMethod(StackTraceElement traceElement) {
+        return ("android.arch.lifecycle.LiveData".equals(traceElement.getClassName()) ||
+                "androidx.lifecycle.LiveData".equals(traceElement.getClassName())) &&
+                "observeForever".equals(traceElement.getMethodName());
+    }
+
 }

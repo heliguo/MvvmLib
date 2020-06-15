@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * author:lgh on 2020/6/12 16:39
+ * @author:lgh on 2020/6/12 16:39
  * 虚引用的作用：当虚引用管理的对象被回收时，与之关联的队列不为空
  */
 class Main {

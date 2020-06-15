@@ -28,7 +28,7 @@ import com.kingja.loadsir.core.LoadSir;
 import java.util.List;
 
 /**
- * author:lgh on 2020/6/12 10:20
+ * @author:lgh on 2020/6/12 10:20
  * 配置懒加载的fragment(支持fragment嵌套懒加载)
  */
 public abstract class BaseLazyFragment<V extends ViewDataBinding, VM extends IMvvmBaseViewModel>

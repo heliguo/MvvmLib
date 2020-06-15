@@ -3,7 +3,7 @@ package com.example.base.utils;
 import android.util.Log;
 
 /**
- * author:lgh on 2020/6/12 14:08
+ * @author:lgh on 2020/6/12 14:08
  * currentLev = 4 打印全部日志
  * currentLev < 1 关闭打印日志
  */
