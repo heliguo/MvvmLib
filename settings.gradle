@@ -1,3 +1,6 @@
+include ':network'
+include ':user'
+include ':main'
 include ':common'
 include ':base'
 include ':app'

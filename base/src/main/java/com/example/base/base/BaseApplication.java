@@ -77,11 +77,11 @@ public class BaseApplication extends Application {
         return sInstance;
     }
 
-    public static boolean isDebug() {
+    public boolean isDebug() {
         return sDebug;
     }
 
-    public static void setDebug(boolean debug) {
+    public void setDebug(boolean debug) {
         sDebug = debug;
     }
 
